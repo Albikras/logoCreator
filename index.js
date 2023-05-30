@@ -35,15 +35,15 @@ function writeFile() {
         svgShape = new Square(color);
         break;
     }
-    let x = svgShape.render();
+    let newShape = svgShape.render();
 
-    const svg = new SVG(textColor, text, x);
+    const svg = new SVG(textColor, text, newShape);
 
-    let y = svg.render();
+    let svgMarkDown = svg.render();
 
-    fs.writeFile("./examples/logo.svg", y, (err) => {
+    fs.writeFile("./examples/logo.svg", svgMarkDown, (err) => {
       err ? console.log("error") : console.log("Generated logo.svg");
     });
   });
 }
-writeFile();
+writeFile();//start the writeFile function

@@ -8,6 +8,7 @@ const questions = [
     name: "logotitle",
     message: "Enter a logo title cannot be more then 3 characters",
     maxLength: 3,
+    default: "SVG",
   },
   {
     type: "input",

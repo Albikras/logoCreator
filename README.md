@@ -20,11 +20,10 @@
 
 ## Usage
 
-![image of code running]()
-![image of created Shape]()
-![image of not accepted value]()
-![image of newSVG.js]()
-![image of shapes.test.js]()
+![image of code running](./lib/images/completedCode.png)
+![image of created Shape](./lib/images/completedImage.png)
+![image of not accepted value](./lib/images/invalidInput.png)
+![image of generated svg](./lib/images/generatedSVG.png)
 
 ## Credits
 

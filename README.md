@@ -20,9 +20,9 @@
 
 ## Usage
 
-![image of index.js]()
-![image of questions.js]()
-![image of shapes.js]()
+![image of code running]()
+![image of created Shape]()
+![image of not accepted value]()
 ![image of newSVG.js]()
 ![image of shapes.test.js]()
 

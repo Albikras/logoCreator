@@ -1,3 +1,7 @@
+/**
+ * questions array, used to keep the questions in one place and are the question that
+ * will be asked to the user
+ */
 const questions = [
   {
     type: "max",
@@ -25,4 +29,4 @@ const questions = [
   },
 ];
 
-module.exports = questions;
+module.exports = questions; //used to import questions array

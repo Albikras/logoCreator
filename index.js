@@ -1,3 +1,6 @@
+/**
+ * declares a bunch of vairbles, each one is a imported value and declared as a const
+ */
 const fs = require("fs");
 const questions = require("./questions");
 const inquirer = require("inquirer");
@@ -5,8 +8,15 @@ const maxLengthInputPrompt = require("inquirer-maxlength-input-prompt");
 const { Triangle, Square, Circle } = require("./lib/shapes");
 const { SVG } = require("./lib/newSVG");
 
+/**
+ * used inquirer-maxlength-input-prompt to add a limit to how much the user can type
+ */
 inquirer.registerPrompt("max", maxLengthInputPrompt);
 
+/**
+ * function to write the svg file, will ask a series of questions and create you svg
+ * image based on user input
+ */
 function writeFile() {
   inquirer.prompt(questions).then((data) => {
     console.log(data);

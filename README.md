@@ -50,3 +50,5 @@ https://github.com/Albikras/logoCreator
 ## Video
 
 
+https://github.com/Albikras/logoCreator/assets/124819029/583503b9-ff4e-4873-a74a-959e8abe9ae6
+

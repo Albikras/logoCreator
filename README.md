@@ -48,3 +48,7 @@ If you want to reach me with additional question click my email link here: Krasn
 https://github.com/Albikras/logoCreator
 
 ## Video
+
+
+https://github.com/Albikras/logoCreator/assets/124819029/2d651dd4-d473-4d2b-996d-522fe545825b
+
